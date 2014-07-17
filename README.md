@@ -22,7 +22,7 @@ Otherwise ...
 
 ### Prerequisites
 
-Git - probably as you are viewing this from github, but can be found at http://git-scm.com/.
+Git - probably already installed as you are viewing this from github, but can be found at http://git-scm.com/.
 
 You must have node.js and its package manager (npm) installed. You can get them from http://nodejs.org/.
 
