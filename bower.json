@@ -2,7 +2,7 @@
   "name": "twitter-map-challenge",
   "description": "Display and filter tweets on world map in real time.",
   "version": "0.7.0",
-  "homepage": "https://github.com/zorborac/tweet-challenge",
+  "homepage": "https://github.com/zorborac/tweet-mapper",
   "license": "MIT",
   "private": true,
   "dependencies": {

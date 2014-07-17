@@ -37,6 +37,7 @@ cd tweet-mapper
 
 Go into the api directory and install the nodejs dependencies with npm:
 ```bash
+cd api
 npm install
 ```
 
@@ -98,6 +99,22 @@ npm install
 ```
 
 rather than npm start from the root folder.
+
+
+### Troubleshooting
+
+The node.js app defaults to port 5000. If this is in use on your system it will fail to launch. 
+
+Change the default server port by changing the values on 
+
+line 4 of /api/app.js
+
+line 11 of /app/js/services.js
+
+and 
+
+line 50 of /app/index.html
+
 
 ## Stack
 
