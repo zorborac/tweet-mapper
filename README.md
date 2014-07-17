@@ -101,6 +101,11 @@ npm install
 rather than npm start from the root folder.
 
 
+### Notes
+
+Playing with the constants in /api/config/twitter.js and /app/js/controllers.js sllows one to alter behavior of app. Currently it's optimized for my relatively weak machine. A stronger machine could likely handle more total displayed tweets and higher tweet throughput.
+
+
 ### Troubleshooting
 
 The node.js app defaults to port 5000. If this is in use on your system it will fail to launch. 
@@ -136,7 +141,7 @@ And the base structure came from angular-seed
 
 https://github.com/angular/angular-seed
 
-## Licence
+## License
 The MIT License (MIT)
 
 Copyright (c) 2014 Tom Weber (tom@tommichaelweber.com)
