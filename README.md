@@ -103,7 +103,7 @@ rather than npm start from the root folder.
 
 ### Notes
 
-Playing with the constants in /api/config/twitter.js and /app/js/controllers.js sllows one to alter behavior of app. Currently it's optimized for my relatively weak machine. A stronger machine could likely handle more total displayed tweets and higher tweet throughput.
+Playing with the constants in /api/config/twitter.js and /app/js/controllers.js allows one to alter behavior of app. Currently it's optimized for my relatively weak machine. A stronger machine could likely handle more total displayed tweets and higher tweet throughput.
 
 
 ### Troubleshooting
