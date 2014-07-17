@@ -1,0 +1,17 @@
+{
+  "name": "twitter-mapper-challenge-angular-app",
+  "private": true,
+  "version": "0.7.0",
+  "description": "Display and filter tweets on world map in real time",
+  "repository": "https://github.com/zorborac/tweet-mapper",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "bower install",
+    "prestart": "npm install",
+    "start": "http-server -a localhost -p 8000",
+  },
+  "dependencies": {
+    "bower" : "latest",
+    "http-server" : "latest"
+  }
+}

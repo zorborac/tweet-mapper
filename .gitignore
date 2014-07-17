@@ -1,0 +1,10 @@
+logs/*
+!.gitkeep
+node_modules/
+bower_components/
+app/npm-debug.log
+tmp
+.DS_Store
+.idea
+npm-debug.log
+api/node_nodules/

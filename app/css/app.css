@@ -1,0 +1,171 @@
+/* app css stylesheet */
+
+body {
+  overflow: hidden;
+}
+
+[ng\:cloak], [ng-cloak], .ng-cloak {
+  display: none !important;
+}
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+
+.main-body {
+  position: relative;
+}
+
+.mapholder {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 250 !important;
+  /*postion: relative;
+  top: 0;
+  left: 0;*/
+}
+
+.filter-group {
+  background: rgba(54,54,54, 0.5);
+  z-index: 300;
+  position: absolute;
+  width: 260px;
+  height: 125px;
+  top: 30px;
+  right: 30px;
+  border-radius : 8px;
+}
+
+.filter-group .form-group {
+  padding: 20px;
+}
+
+.filter-group .form-group h4 {
+  color: #FFF;
+  margin-top: 6px;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+
+.filter-group .onbtn {
+  float: right;
+}
+
+.filter-group .onbtn.active {
+  float: right;
+  background: orange;
+  border-color: orange;
+}
+
+
+.leaflet-popup {
+  position:absolute;
+  text-align:center;
+  pointer-events:none;
+}
+.main-body .leaflet-popup-content-wrapper {
+  padding:1px;
+  text-align:left;
+  pointer-events:all;
+  background: rgba(54,54,54, 0.5);
+}
+.leaflet-popup-content {
+  padding:10px 10px 15px;
+  margin:0;
+  line-height:inherit;
+}
+.leaflet-popup-tip-container {
+  width:20px;
+  height:20px;
+  margin:0 auto;
+  position:relative;
+}
+.main-body .leaflet-popup-tip {
+  width:0;
+  height:0;
+  margin:0;
+  border-left:10px solid transparent;
+  border-right:10px solid transparent;
+  border-top:10px solid rgba(54,54,54, 0.5);
+  box-shadow:none;
+}
+.main-body .leaflet-popup-close-button {
+  text-indent:-999em;
+  position:absolute;
+  top:0;right:0;
+  pointer-events:all;
+  display: none;
+}
+.leaflet-popup-close-button:hover {
+  background-color:#f8f8f8;
+}
+
+.leaflet-popup-scrolled {
+  overflow:auto;
+  border-bottom:1px solid #ddd;
+  border-top:1px solid #ddd;
+}
+
+.popuptext {
+  color: #FFF !important;
+}
+
+img.new-tweet {
+  animation: newTweetAnim 1.5s 1;
+  -webkit-animation: newTweetAnim 1.5s 1;
+}
+
+@keyframes newTweetAnim {
+
+0%     {width: 37px; height: 28px; filter: saturate(100%); z-index: 5000;}
+13%    {width: 40px; height: 31px; filter: saturate(125%); z-index: 5000;}
+25%    {width: 44px; height: 34px; filter: saturate(135%); z-index: 5000;}
+37%    {width: 51px; height: 38px; filter: saturate(145%); z-index: 5000;}
+50%    {width: 62px; height: 52px; filter: saturate(165%); z-index: 5000;}
+66%    {width: 51px; height: 38px; filter: saturate(145%); z-index: 5000;}
+75%    {width: 44px; height: 34px; filter: saturate(135%); z-index: 5000;}
+87%    {width: 37px; height: 28px; filter: saturate(125%); z-index: 5000;}
+100%   {width: 31px; height: 26px; filter: saturate(100%); z-index: 5000;}
+
+}
+
+@-webkit-keyframes newTweetAnim {
+
+0%     {width: 37px; height: 28px; -webkit-filter: saturate(100%); z-index: 5000;}
+13%    {width: 40px; height: 31px; -webkit-filter: saturate(125%); z-index: 5000;}
+25%    {width: 44px; height: 34px; -webkit-filter: saturate(135%); z-index: 5000;}
+37%    {width: 51px; height: 38px; -webkit-filter: saturate(145%); z-index: 5000;}
+50%    {width: 62px; height: 52px; -webkit-filter: saturate(165%); z-index: 5000;}
+66%    {width: 51px; height: 38px; -webkit-filter: saturate(145%); z-index: 5000;}
+75%    {width: 44px; height: 34px; -webkit-filter: saturate(135%); z-index: 5000;}
+87%    {width: 37px; height: 28px; -webkit-filter: saturate(125%); z-index: 5000;}
+100%   {width: 31px; height: 26px; -webkit-filter: saturate(100%); z-index: 5000;}
+
+}
